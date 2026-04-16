@@ -37,3 +37,12 @@ Resposta:
 Sim
 
 """
+cromossomo= str(input("Digite o cromossomo:"))
+Posição= int(input("Digite a posição:"))
+
+if cromossomo == "chr17" and 41196312 <= Posição <=41277500:
+    print ("Resposta:")
+    print ("Sim")
+else:
+    print ("Resposta:")
+    print ("Não")
